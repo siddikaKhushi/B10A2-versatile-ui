@@ -18,11 +18,10 @@
     border-radius: 46px;
 background: rgb(230, 83, 60);
 }
-
 /* navbar */
 .navbar{
     justify-content: space-between;
-    padding: 35px 100px 35px 100px;
+    padding: 35px 120px 35px 120px;
     align-items: center;
 }
 .name{
@@ -38,7 +37,7 @@ text-align: left;
     gap: 30px;
     align-items: center;
 }
-.about-item{
+.about-link{
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: Inter;
@@ -50,3 +49,262 @@ text-align: left
 }
 
 /* bannar */
+.banner{
+    padding: 35px 120px 35px 120px;
+    /* gap: 30px; */
+ justify-content: space-between;
+}
+.banner-headline{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 60px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+}
+.shape{
+    font-family: Miama;
+    font-size: 60px;
+    font-weight: 200;
+}
+.banner-details{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.btn-two{
+    background-color: rgb(17, 17, 17);
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+padding: 5px 15px 5px 15px;
+color: rgb(255, 255, 255);
+
+}
+.banner-topic{
+ margin-top: 80px;
+}
+.red-dot{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.video-one{
+   gap: 5px;
+    align-items: center;
+}
+.video-tu{
+    color: rgb(250, 250, 249);
+font-family: Inter;
+font-size: 14px;
+font-weight: 900;
+line-height: 1px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.video-tuto{
+    color: rgba(239, 237, 232, 0.65);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 1px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+.video-one{
+    /* box-sizing: border-box; */
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+height: 60px;
+width: 120px;
+padding: 4px 6px;
+/* position: absolute; */
+margin-top: -180px;
+margin-left: -40px;
+}
+.workout500{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 900;
+line-height: 1px;
+letter-spacing: 1px;
+text-align: left;
+}
+.workouttutorial{
+    color: rgba(255, 255, 255, 0.65);
+font-family: Inter;
+font-size: 9px;
+font-weight: 400;
+line-height: 1px;
+letter-spacing: 1px;
+text-align: left;
+}
+.video-workout{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    height: 60px;
+    width: 120px;
+    padding: 4px 6px; 
+    margin-top: -290px;
+    /* margin-right: -500px; */
+    margin-left: 270px;
+}
+
+/* Change-Your-Habits */
+.Change-Your-Habits{
+    padding: 150px 120px 35px 120px;
+}
+.habit-name{
+    justify-content: center;
+}
+.habit-head{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+line-height: 80%;
+letter-spacing: 0%;
+text-align: center;
+}
+.habit-details{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+.habit-card{
+    display: flex;
+
+}
+.habitcard{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 10px; */
+    margin-left: 50px;
+}
+.habit_img{
+    border-radius: 50%;
+   align-items: center;
+}
+.habit-card-head{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+}
+.habit-card-details{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 9px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+/* Run an Extra Mile Easily */
+.Run-an-Extra-Mile-Easily{
+    margin: 35px 120px 35px 120px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     border-radius: 18px;
+     background: rgb(34, 34, 34);
+    gap: 150px;
+}
+.run-headline{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 35px;
+font-weight: 900;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.run-details{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.run-image{
+    width: 366px;
+height: 312px;
+border-radius: 18px;
+}
+
+/* BMI Calculator */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar{
+        padding: 10px;
+    }
+  .about{
+    display: none;
+  } 
+  .banner{
+    flex-direction: column;
+    padding: 10px;
+  } 
+  .Change-Your-Habits{
+    padding: 100px 50px 50px 50px;
+  }
+.banner-headline{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 30px;
+font-weight: 600;
+/* line-height: 120%; */
+letter-spacing: 0%;
+}
+.habit-card{
+   flex-direction: column;
+
+}
+.habitcard{
+    margin-left: 20px;
+}
+.Run-an-Extra-Mile-Easily{
+    flex-direction: column;
+    margin: 7px;
+    padding: 10px;
+    gap: 15px;
+}
+}
