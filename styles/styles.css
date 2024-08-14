@@ -412,9 +412,61 @@ text-align: center;
  align-items: center;
 background: rgba(255, 255, 255, 0.1);
 }
-
-
-
+.foot{
+    margin-left: 120px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.fitness-footer{
+    justify-content: space-between;
+    gap: 80px;
+}
+.last-head{
+    color: rgb(230, 83, 60);
+font-family: Inter;
+font-size: 60px;
+font-weight: 800;
+line-height: 60%;
+letter-spacing: 0%;
+text-align: left;
+}
+.last-details{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+.last-second-head{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.last-kolam{
+    list-style: none;
+}
+.last-kolam-list{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    height: 0.2px;
+    width: 950px;
+    justify-content: center;
+}
 
 
 
@@ -433,7 +485,7 @@ background: rgba(255, 255, 255, 0.1);
     padding: 10px;
   } 
   .Change-Your-Habits{
-    padding: 100px 50px 50px 50px;
+    padding: 340px 50px 50px 50px;
   }
 .banner-headline{
     color: rgb(255, 255, 255);
@@ -475,4 +527,22 @@ gap: 40px;
 .meetour-team{
     grid-template-columns: repeat(1,1fr);
 }
+.fitness-footer{
+    /* margin-left: 5px; */
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.fitness-footer{
+    flex-direction: column;
+    gap: 40px;
+}
+.line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    height: 0.2px;
+    width: 200px;
+    justify-content: center;
+}
+
+
+
 }
